@@ -7,10 +7,11 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(90, 37, 47), rgb(130, 168, 238));
 }
 
 button {
+  margin-left: 15px;
   font-size: 7px;
 }
 
@@ -34,4 +35,20 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+#tasks{
+  list-style: none;
+}
+
+.High {
+  color: red;
+}
+
+.Mid {
+  color: yellow;
+}
+
+.Low{
+  color: green;
 }
